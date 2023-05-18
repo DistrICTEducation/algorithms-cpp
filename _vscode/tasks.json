@@ -8,6 +8,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${workspaceFolder}\\src\\*.cpp",
+                "${workspaceFolder}\\src\\*\\*\\*.cpp",
                 "-I${workspaceFolder}\\include",
                 "-o",
                 "${workspaceFolder}\\algorithms-cpp-app.exe"
